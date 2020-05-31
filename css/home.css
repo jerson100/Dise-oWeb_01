@@ -156,7 +156,7 @@ header .top-container{
 
 .banner-container .slider-item img{
     max-height: 500px;
-    height: 200px;
+    height: 300px;
 }
 
 .slider-item .data-container{
@@ -171,7 +171,9 @@ header .top-container{
 }
 
 .data-container p{
-    color: #07e3f3;
+    color: var(--bg-primary);
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 .data-container .data__description{
@@ -180,7 +182,7 @@ header .top-container{
 }
 
 .data-container h1{
-    color: rgb(121, 121, 121);
+    color: rgb(218, 218, 218);
     font-size: 25px;
     font-weight: bold;
 }
@@ -559,6 +561,10 @@ main .whatOurClientSay{
     FOOTER
 */
 
+.footer ul li{
+    padding: .3rem 0;
+}
+
 .footer{
     color: rgba(0,0,0,.6);
     font-size: 14px;
@@ -569,7 +575,7 @@ main .whatOurClientSay{
 }
 
 .footer-inner-content section{
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .footer-inner-content section:last-child{
@@ -721,6 +727,34 @@ main .whatOurClientSay{
     MEDIA QUERIES
 
 */
+
+
+.wrapper_autor{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.wrapper_autor:before{
+    position: absolute;
+    content: 'JERSON';
+    font-size: 16px;
+    font-weight: bold;
+    color: red;
+    left: -3px;
+    bottom: -1rem;
+    text-align: center;
+    width: 100%;
+}
+
+.wrapper_autor img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    z-index: 1000000;
+    box-shadow: 0 0px 10px red;
+    object-fit: cover;
+}
 
 @media screen and (min-width:768px){
 
