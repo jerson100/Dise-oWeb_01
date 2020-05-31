@@ -511,7 +511,7 @@ article .left{
 /*#########SECTION whatOurClientSay###############*/
 
 main .whatOurClientSay{
-    background-image: url("imgs/what03.jpg");
+    background-image: url("../imgs/what03.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     /*background-attachment: fixed;*/
