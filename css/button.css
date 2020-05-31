@@ -1,0 +1,33 @@
+:root{
+    --bg-btn: var(--bg-primary);
+    --bg-btn-hover: var(--bg-primary);
+    --c-btn-border: var(--bg-primary);
+    --c-btn: #fff;
+}
+
+.je-btn{
+    padding: .7em 1.4em;
+    color: var(--c-btn);
+    background-color: var(--bg-btn);
+    border-radius: 20px;
+    border: solid 1px var(--c-btn-border);
+    cursor: pointer;
+    transition: background-color .3s;
+    text-decoration: none;
+    font-size: .9em;
+}
+
+.je-btn:hover{
+    background-color: var(--bg-btn-hover);
+}
+
+.je-btn:focus{
+    outline: none;
+}
+
+[class*="je-btn"].white{
+    --bg-btn: #fff;
+    --c-btn: #7E7E7E;
+    --c-btn-border: #D7D7D7;
+    --bg-btn-hover: rgba(219, 219, 219,.5);
+}

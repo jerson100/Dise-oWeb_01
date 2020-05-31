@@ -1,0 +1,36 @@
+.je-container{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1024px;
+}
+
+.je-item{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.je-direction-row{
+    flex-direction: row;
+}
+
+.je-direction-column{
+    flex-direction: column;
+}
+
+.je-flex{
+    display: flex;
+}
+
+.je-flex-d-c{
+    flex-direction: column;
+}
+
+.je-space-between{
+    justify-content: space-between;
+}
+
+.w100{
+    width: 100%;
+}
